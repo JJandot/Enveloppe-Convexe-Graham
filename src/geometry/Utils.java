@@ -17,8 +17,12 @@ public class Utils {
         return p;
     }
 
+    static boolean isPositive(Point extSegment, Point s1, Point s2){
+        return crossProduct(s2, extSegment, s1) > 0;
+    }
+
     static double crossProduct(Point ext1, Point origine, Point ext2){
-        return (((ext2.x - origine.x) * (ext1.y - origine.y)) - (ext1.x - origine.x) * (ext2.y - origine.y));
+        return (((ext2.x - origine.x) * (ext1.y - origine.y)) - ((ext1.x - origine.x) * (ext2.y - origine.y)));
     }
 
     static void quickSort(Vector<Point> points){

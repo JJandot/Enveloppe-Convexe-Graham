@@ -75,6 +75,7 @@ class CanvasSaisirPointsAfficherSegments extends JPanel implements MouseListener
 
             g.fillOval((int)(p.x - POINT_SIZE), (int)(p.y - POINT_SIZE), 2 * POINT_SIZE + 1, 2 * POINT_SIZE + 1);
             g.drawOval((int)(p.x - 2 * POINT_SIZE), (int)(p.y - 2 * POINT_SIZE), 2 * 2 * POINT_SIZE,	2 * 2 * POINT_SIZE);
+            g.drawString(Double.toString(p.x), (int)p.x - 50, (int)p.y);
         }
     }
 
