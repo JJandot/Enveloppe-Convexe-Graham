@@ -13,7 +13,7 @@ public class Point {
      */
     public double y;
 
-    public boolean isUsed = false;
+    double angle;
 
     /**
      * Constructeur avec initialisation de x et y.
@@ -21,5 +21,14 @@ public class Point {
     public Point(double x, double y) {
         this.x = x;
         this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                ", angle=" + angle +
+                '}';
     }
 }
