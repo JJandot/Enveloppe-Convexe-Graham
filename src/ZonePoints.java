@@ -56,6 +56,8 @@ class ZonePoints extends JPanel  {
     }
 
     private void makeConvex() {
-        Algorithms.grahamScan(canvas.points);
+        canvas.segments.removeAllElements();
+        Algorithms.grahamScan(canvas.points, canvas.segments);
+        canvas.repaint();
     }
 }
