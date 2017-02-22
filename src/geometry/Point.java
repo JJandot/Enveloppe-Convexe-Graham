@@ -14,6 +14,7 @@ public class Point {
     public double y;
 
     double angle;
+    double distance;
 
     /**
      * Constructeur avec initialisation de x et y.

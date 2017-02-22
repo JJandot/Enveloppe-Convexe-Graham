@@ -3,6 +3,10 @@ package geometry;
 import java.util.Collections;
 import java.util.Vector;
 
+import static java.lang.Math.acos;
+import static java.lang.Math.pow;
+import static java.lang.Math.sqrt;
+
 public class Utils {
 
     private Utils() {
@@ -15,6 +19,25 @@ public class Utils {
                 p = point;
         }
         return p;
+    }
+
+    static void addCoords(Point point, Point lowestPoint, Point horizontalBuffer){
+        point.distance = sqrt(pow((point.x - lowestPoint.x), 2) + pow((point.y - lowestPoint.y), 2));
+
+        double x = point.x - lowestPoint.x;
+        double y = point.y - lowestPoint.y;
+
+        double x2 = horizontalBuffer.x - lowestPoint.x;
+        double y2 = horizontalBuffer.y - lowestPoint.y;
+
+        double scalarProduct = x*x2 + y*y2;
+
+        double v1Size = sqrt(pow(x ,2) + pow(y ,2));
+        double v2Size = sqrt(pow(x2 ,2) + pow(y2 ,2));
+
+        double cos = scalarProduct / (v1Size * v2Size);
+
+        point.angle = Math.toDegrees(acos(cos));
     }
 
     static double crossProduct(Point originPoint, Point ext1, Point ext2){

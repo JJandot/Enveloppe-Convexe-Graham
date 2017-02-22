@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7818cc97-21fe-4a9a-b507-bf1a5472f6b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/CanvasSaisirPointsAfficherSegments.class" afterPath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/CanvasSaisirPointsAfficherSegments.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/Geometry/Point.class" afterPath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/Geometry/Point.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/Geometry/Utils.class" afterPath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/Geometry/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/ZonePoints.class" afterPath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/ZonePoints.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/geometry/Algorithms.class" afterPath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/geometry/Algorithms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Julien.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Julien.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnveloppeConvexeGraham.iml" afterPath="$PROJECT_DIR$/EnveloppeConvexeGraham.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZonePoints.java" afterPath="$PROJECT_DIR$/src/ZonePoints.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Algorithms.java" afterPath="$PROJECT_DIR$/src/geometry/Algorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Point.java" afterPath="$PROJECT_DIR$/src/geometry/Point.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Utils.java" afterPath="$PROJECT_DIR$/src/geometry/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Algorithms.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Algorithms.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geometry/Algorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="382">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,23 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZonePoints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZonePoints.java">
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="393">
+              <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,13 +90,13 @@
         <option value="$PROJECT_DIR$/src/Geometry/package-info.java" />
         <option value="$PROJECT_DIR$/src/geometry/Segment.java" />
         <option value="$PROJECT_DIR$/src/Algorithms.java" />
-        <option value="$PROJECT_DIR$/src/geometry/Point.java" />
         <option value="$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java" />
         <option value="$PROJECT_DIR$/src/tests/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/ZonePoints.java" />
         <option value="$PROJECT_DIR$/src/tests/UtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/geometry/Utils.java" />
+        <option value="$PROJECT_DIR$/src/geometry/Point.java" />
         <option value="$PROJECT_DIR$/src/geometry/Algorithms.java" />
+        <option value="$PROJECT_DIR$/src/geometry/Utils.java" />
       </list>
     </option>
   </component>
@@ -695,7 +692,7 @@
       <workItem from="1487596257327" duration="3462000" />
       <workItem from="1487681952072" duration="2612000" />
       <workItem from="1487754644493" duration="2991000" />
-      <workItem from="1487770011917" duration="4323000" />
+      <workItem from="1487770011917" duration="7313000" />
     </task>
     <task id="LOCAL-00001" summary="Gestion pile v1">
       <created>1487584078278</created>
@@ -704,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487584078278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gestion pile v2">
+      <created>1487774373065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487774373065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27841000" />
+    <option name="totallyTimeSpent" value="30831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -769,7 +773,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gestion pile v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gestion pile v1" />
+    <MESSAGE value="Gestion pile v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gestion pile v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -906,14 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/TestUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,20 +947,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geometry/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Algorithms.java">
+    <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="393">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
