@@ -16,13 +16,17 @@ public class Algorithms {
         for (Point point : points)
             addCoords(point, lowestPoint, horizontalBuffer);
 
-        System.out.println(points);
         Utils.quickSort(points);
-        System.out.println(points);
+
+        for(int i = 0; i < points.size() - 1; ++i){
+            segments.add(new Segment(points.get(i), points.get(i + 1)));
+        }
+        segments.add(new Segment(points.firstElement(), points.lastElement()));
 
         Stack<Point> stack = new Stack<>();
         stack.push(points.get(0));
         stack.push(points.get(1));
+
 
         for(int i = 2; i < points.size(); ++i){
             Point second = stack.pop();
@@ -42,6 +46,10 @@ public class Algorithms {
                 stack.push(origin);
             }
         }
-        System.out.println(stack);
+        segments.removeAllElements();
+        for(int i = 0; i < stack.size() - 1; ++i){
+            segments.add(new Segment(stack.get(i), stack.get(i + 1)));
+        }
+        segments.add(new Segment(stack.firstElement(), stack.lastElement()));
     }
 }

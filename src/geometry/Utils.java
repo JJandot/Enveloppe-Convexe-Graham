@@ -36,7 +36,9 @@ public class Utils {
         double v2Size = sqrt(pow(x2 ,2) + pow(y2 ,2));
 
         double cos = scalarProduct / (v1Size * v2Size);
-
+        if(Double.isNaN(cos)){
+            cos = 1;
+        }
         point.angle = Math.toDegrees(acos(cos));
     }
 
