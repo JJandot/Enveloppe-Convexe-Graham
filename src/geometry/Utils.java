@@ -10,8 +10,7 @@ import static java.lang.Math.sqrt;
 
 class Utils {
 
-    private Utils() {
-    }
+    private Utils() {}
 
     /**
      * Parcours un vecteur de points pour en trouver le plus bas (celui avec la coordonée <code>y</code> la plus grande)
