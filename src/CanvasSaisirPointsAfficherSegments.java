@@ -1,5 +1,4 @@
-import geometry.Point;
-import geometry.Segment;
+import geometry.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +10,7 @@ import java.util.Vector;
 /** La classe CanvasSaisirPointsAfficherSegments. */
 class CanvasSaisirPointsAfficherSegments extends JPanel implements MouseListener, MouseMotionListener {
     /** La liste des points affiches. */
-    Vector<Point> points;
+    Vector<geometry.Point> points;
 
     /** La liste des segments affiches. */
     Vector<Segment> segments;
