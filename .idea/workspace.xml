@@ -7,7 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7818cc97-21fe-4a9a-b507-bf1a5472f6b0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/CanvasSaisirPointsAfficherSegments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/ZonePoints.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EnveloppeConvexeGraham/geometry/Algorithms.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Julien.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Julien.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.java" afterPath="$PROJECT_DIR$/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java" afterPath="$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZonePoints.java" afterPath="$PROJECT_DIR$/src/ZonePoints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Algorithms.java" afterPath="$PROJECT_DIR$/src/geometry/Algorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Segment.java" afterPath="$PROJECT_DIR$/src/geometry/Segment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geometry/Utils.java" afterPath="$PROJECT_DIR$/src/geometry/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,42 +31,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
+      <file leaf-file-name="ZonePoints.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ZonePoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="382">
+              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanvasSaisirPointsAfficherSegments.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-                <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-                <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-                <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-                <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-                <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-                <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-                <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Segment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geometry/Segment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/geometry/Algorithms.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -100,20 +102,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/Geometry/Point.java" />
         <option value="$PROJECT_DIR$/src/Geometry/Segment.java" />
-        <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/Geometry/Utils.java" />
         <option value="$PROJECT_DIR$/src/Geometry/package-info.java" />
-        <option value="$PROJECT_DIR$/src/geometry/Segment.java" />
         <option value="$PROJECT_DIR$/src/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/tests/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/tests/UtilsTest.java" />
         <option value="$PROJECT_DIR$/src/geometry/CanvasSaisirPointsAfficherSegments.java" />
         <option value="$PROJECT_DIR$/src/geometry/ZonePoints.java" />
-        <option value="$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java" />
-        <option value="$PROJECT_DIR$/src/ZonePoints.java" />
-        <option value="$PROJECT_DIR$/src/geometry/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/geometry/Point.java" />
         <option value="$PROJECT_DIR$/src/geometry/Utils.java" />
+        <option value="$PROJECT_DIR$/src/geometry/Segment.java" />
+        <option value="$PROJECT_DIR$/src/App.java" />
+        <option value="$PROJECT_DIR$/src/geometry/Algorithms.java" />
+        <option value="$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java" />
+        <option value="$PROJECT_DIR$/src/ZonePoints.java" />
       </list>
     </option>
   </component>
@@ -170,6 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,14 +214,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EnveloppeConvexeGraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EnveloppeConvexeGraham" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="geometry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -587,6 +607,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -721,7 +748,14 @@
       <workItem from="1488179626866" duration="2703000" />
       <workItem from="1488182361218" duration="1794000" />
       <workItem from="1488532048920" duration="802000" />
-      <workItem from="1488533029948" duration="275000" />
+      <workItem from="1488533029948" duration="461000" />
+      <workItem from="1488538186166" duration="100000" />
+      <workItem from="1489141308143" duration="108000" />
+      <workItem from="1489141430207" duration="4000" />
+      <workItem from="1490171007913" duration="638000" />
+      <workItem from="1490173485404" duration="257000" />
+      <workItem from="1490339823749" duration="3185000" />
+      <workItem from="1490945576443" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Gestion pile v1">
       <created>1487584078278</created>
@@ -758,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488532839347</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout doc">
+      <created>1488533311679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488533311679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -776,7 +817,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42898000" />
+    <option name="totallyTimeSpent" value="47424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -789,7 +830,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -804,13 +844,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -844,17 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,17 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,17 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,17 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,17 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="10" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,9 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,17 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,17 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,9 +1107,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,17 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,9 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,17 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="59" lean-forward="false" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,17 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,27 +1188,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/UtilsTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/App.java">
+    <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZonePoints.java">
+    <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geometry/Segment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CanvasSaisirPointsAfficherSegments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="2363">
+          <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1304,42 +1230,16 @@
     <entry file="file://$PROJECT_DIR$/src/geometry/Algorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Segment.java">
+    <entry file="file://$PROJECT_DIR$/src/ZonePoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="382">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geometry/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="method#getLowestPoint#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcDistance#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="method#calcAngle#0;class#Utils#0" expanded="false" />
-            <element signature="docComment;method#addCoords#0;class#Utils#0" expanded="false" />
-            <element signature="method#addCoords#0;class#Utils#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

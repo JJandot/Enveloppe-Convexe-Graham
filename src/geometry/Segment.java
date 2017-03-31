@@ -15,7 +15,7 @@ public class Segment {
     /**
      * Constructeur avec initialisation de a et b.
      */
-    public Segment(Point a, Point b) {
+    Segment(Point a, Point b) {
         this.a = a;
         this.b = b;
     }

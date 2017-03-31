@@ -112,8 +112,10 @@ class Utils {
         return  ((ext1.x - originPoint.x) * (ext2.y - originPoint.y)) - ((ext1.y - originPoint.y) * (ext2.x - originPoint.x));
     }
 
-    static void quickSort(Vector<Point> points){
-        quickSort(points, 0, points.size() -1);
+    static Vector<Point> quickSort(Vector<Point> points){
+        Vector<Point> pointVector = new Vector<>(points);
+        quickSort(pointVector, 0, pointVector.size() -1);
+        return pointVector;
     }
 
     private static int partition(Vector<Point> points, int debut, int fin){
@@ -138,11 +140,12 @@ class Utils {
         }
     }
 
-    static void createSegments(Vector<Segment> segments, Stack<Point> stack){
-        segments.removeAllElements();
+    static Vector<Segment> createSegments(Stack<Point> stack){
+        Vector<Segment> segmentsFinal = new Vector<>();
         for(int i = 0; i < stack.size() - 1; ++i){
-            segments.add(new Segment(stack.get(i), stack.get(i + 1)));
+            segmentsFinal.add(new Segment(stack.get(i), stack.get(i + 1)));
         }
-        segments.add(new Segment(stack.firstElement(), stack.lastElement()));
+        segmentsFinal.add(new Segment(stack.firstElement(), stack.lastElement()));
+        return segmentsFinal;
     }
 }

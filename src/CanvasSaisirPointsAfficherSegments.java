@@ -139,6 +139,9 @@ class CanvasSaisirPointsAfficherSegments extends JPanel implements MouseListener
         {
             points.elementAt(numSelectedPoint).x = evt.getX();
             points.elementAt(numSelectedPoint).y = evt.getY();
+            long initTime = System.nanoTime();
+            segments = Algorithms.grahamScan(points, segments);
+            System.out.println("Travail effectué en : " + (System.nanoTime() - initTime) + " nanosecondes");
             repaint();
         }
     }

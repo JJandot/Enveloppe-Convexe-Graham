@@ -16,7 +16,7 @@ public class App  {
         frame.getContentPane().add(zoneAffichage);
 
         // Dimension de la zone d'affichage
-        zoneAffichage.setPreferredSize(new Dimension(400,200));
+        zoneAffichage.setPreferredSize(new Dimension(800,600));
 
         // Resize autour de la zone d'affichage
         frame.pack();
